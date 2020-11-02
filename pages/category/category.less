@@ -1,0 +1,54 @@
+page{
+    height: 100%;
+}
+.cates{
+    height: 100%;
+    .cates_container{
+        display:flex;
+        height: calc(100vh - 90rpx);
+        // 左侧菜单栏
+        .left_menu{
+            flex: 2;
+            // background-color: red;
+            .menu_item{
+                height: 80rpx;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30rpx;
+            }
+            .active{
+                color: var(--themeColor);
+                border-left: 5rpx solid currentColor;
+            }
+        }
+        // 右侧商品栏
+        .right_content{
+            flex: 5;
+            // background-color: blue;
+            .good_group{
+               .good_title{
+                   height: 80rpx;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   .delimiter{
+                       padding: 0 10rpx;
+                       color: #ccc;
+                   }
+               }
+               .good_list{
+                   display:flex;
+                   flex-wrap: wrap;
+                   navigator{
+                        width: 33.3%;
+                        text-align: center;
+                       image{
+                        width: 50%;
+                       }
+                   }
+               }
+            }
+        }
+    }
+}

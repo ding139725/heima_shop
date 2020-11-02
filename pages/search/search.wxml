@@ -1,0 +1,18 @@
+<view class="search_row">
+    <input type="text" placeholder="请输入你要搜索的商品"></input>
+    <button class="search_btn">取消</button>
+</view>
+<view class="search_content">
+    <view class="search_item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptatum? Itaque assumenda quia modi cupiditate dolores illo et illum, eaque molestiae maiores laboriosam. Ipsa officiis ad, eveniet laborum dolorum veniam!
+    </view>
+    <view class="search_item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptatum? Itaque assumenda quia modi cupiditate dolores illo et illum, eaque molestiae maiores laboriosam. Ipsa officiis ad, eveniet laborum dolorum veniam!
+    </view>
+    <view class="search_item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptatum? Itaque assumenda quia modi cupiditate dolores illo et illum, eaque molestiae maiores laboriosam. Ipsa officiis ad, eveniet laborum dolorum veniam!
+    </view>
+    <view class="search_item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptatum? Itaque assumenda quia modi cupiditate dolores illo et illum, eaque molestiae maiores laboriosam. Ipsa officiis ad, eveniet laborum dolorum veniam!
+    </view>
+</view>
